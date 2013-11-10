@@ -9,6 +9,6 @@ function cambio(){
 
 	setTimeout(function(){
 		div2.style.display='none';
-	},1100);
+	},900);
 	return false;
 }
