@@ -21,9 +21,6 @@ main div:first-child img{
 main div:last-child img{
 	width: 100%;
 }
-#left img{
-	width: 100%;
-}
 /*#right{background-color: pink;}*/
 #right h1{
 	text-align: center
@@ -118,11 +115,14 @@ main div:last-child img{
 		margin: 0 auto;
 		display: none;
 	}
+
 	#left,#right{
 		width: 48%;
 		display: inline-block;
 		vertical-align: top;
 	}
-
+	#left iframe{
+		margin-top: 100px;
+	}
 
 }
