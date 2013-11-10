@@ -21,6 +21,9 @@ main div:first-child img{
 main div:last-child img{
 	width: 100%;
 }
+#left img{
+	width: 100%;
+}
 /*#right{background-color: pink;}*/
 #right h1{
 	text-align: center
@@ -76,9 +79,29 @@ main div:last-child img{
 	color:white;
 
 }
-.triangulo{
-	display: none;
+
+/*C L A S E S  ---------------------------
+
+*/
+
+.join{
+	display: block !important;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen  and (min-width: 800px){
 	main div:first-child{
 		margin:0 auto;
@@ -90,36 +113,16 @@ main div:last-child img{
 		width: 300px;
 		height: 150px;
 	}
-	#left,#right{		
-		margin-top: 50px;
+	#content{
+		width: 70%;
+		margin: 0 auto;
+		display: none;
+	}
+	#left,#right{
 		width: 48%;
+		display: inline-block;
+		vertical-align: top;
 	}
-	#left{
-		top: 30%;
-		float: left;
-		margin-top: 200px;
-		position: relative;
-		overflow: hidden;
-		position: relative;
-	}
-	#left img{
-		margin-left: 80px;
-	}
-	#left .triangulo{
-		float: right;
-	}
-	#right{		
-		float:right;
-		min-width: 150px;
-		max-width: 600px;	
-	}
-	.triangulo {
-		margin-top: 20px;
-		display: block;
-	    width: 0;
-	    height: 0;
-	    border-top: 40px solid transparent;
-	    border-left: 60px solid #0099ff;
-	    border-bottom: 40px solid transparent;
-	}
+
+
 }
