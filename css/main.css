@@ -111,7 +111,7 @@ main div:last-child img{
 		height: 150px;
 	}
 	#content{
-		width: 70%;
+		width: 90%;
 		margin: 0 auto;
 		display: none;
 	}
@@ -120,6 +120,9 @@ main div:last-child img{
 		width: 48%;
 		display: inline-block;
 		vertical-align: top;
+		padding: 15px;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
 	}
 	#left iframe{
 		margin-top: 100px;
