@@ -137,7 +137,6 @@ main div:last-child img{
 		padding: 15px;
 		box-sizing:border-box;
 		-moz-box-sizing:border-box;
-		max-width: 600px;
 	}
 	#left iframe{
 		margin-top: 100px;
