@@ -32,7 +32,7 @@ main div:last-child img{
 }
 /*#right{background-color: pink;}*/
 #right h2{
-	text-align: center;
+	text-align: justify;
 	font-family: NewsGoth;
 	color: #009DE6 !important;
 }
@@ -137,6 +137,7 @@ main div:last-child img{
 		padding: 15px;
 		box-sizing:border-box;
 		-moz-box-sizing:border-box;
+		max-width: 600px;
 	}
 	#left iframe{
 		margin-top: 100px;
