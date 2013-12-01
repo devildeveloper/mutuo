@@ -1,10 +1,19 @@
+@font-face{
+	font-family: "NewsGoth";
+	src: url('../fonts/tt0049m_.ttf'),
+    url('../fonts/tt0049m_.ttf'); /* IE9 */
+}
+@font-face{
+	font-family: "verdana";
+	src: url('../fonts/verdana.ttf'),
+    url('../fonts/verdana.ttf'); /* IE9 */
+}
 body{
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-position:center bottom;	
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	color: hsl(202, 91%, 45%);
 	font-size: 18px;
 }
 img{
@@ -22,10 +31,15 @@ main div:last-child img{
 	width: 100%;
 }
 /*#right{background-color: pink;}*/
-#right h1{
-	text-align: center
+#right h2{
+	text-align: justify;
+	font-family: NewsGoth;
+	color: #009DE6 !important;
 }
 #right p{
+	font-family: "verdana";
+	text-align:justify;
+	color: #0583BD !important;
 	padding: 20px;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -46,7 +60,7 @@ main div:last-child img{
 	margin-top: 10px;
 	padding: 0px;
 }
-#right input[type='text']{
+#right input[type='text'],#right input[type='email']{
 	border: 1px solid hsl(127, 76%, 45%);
 	border-radius: 7px;
 	-moz-border-radius: 7px;
